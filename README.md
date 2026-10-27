@@ -2,7 +2,7 @@
 A Black-Scholes-based options Greeks dashboard for NIFTY / BANKNIFTY, built as an S&amp;T interview portfolio project. Live NSE option chain data with a deterministic sample-data fallback for offline/demo use.
 Features
 Chain View Delta, Gamma, Theta, Vega for calls and puts across the full strike chain, plus a plot of any Greek vs. strike (smile-shaped curves).
-Single Option — Deep-dive on one strike/type: theoretical price, all five Greeks, IV backed out from the live LTP via Newton-Raphson, and a payoff diagram.
+Single Option Deep-dive on one strike/type: theoretical price, all five Greeks, IV backed out from the live LTP via Newton-Raphson, and a payoff diagram.
 Portfolio Builder Add multiple legs (e.g. Buy Call + Buy Put = long straddle) and see aggregated net Delta/Gamma/Theta/Vega/Rho this is the same shape of risk view used on a live trading desk plus a combined P&L-at-expiry chart.
 Setup
 bash
